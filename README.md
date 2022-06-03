@@ -10,21 +10,15 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .YML file may be used to install only certain pieces of it, such as Filebeat.
 
   - [Ansible Playbook](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Linux/pentest.yml)
-  - Anisible Hosts
-    https://github.com/kurtxavier11/KAcybersecurity/blob/main/ansible/hosts
-  - Ansible Configuration
-    https://github.com/kurtxavier11/KAcybersecurity/blob/main/ansible/ansible.cfg
-  - ELK Installation and VM Configuration
-    https://github.com/kurtxavier11/KAcybersecurity/blob/main/linux/install-elk.yml
-  - Filebeat Playbook
-    https://github.com/kurtxavier11/KAcybersecurity/blob/main/linux/filebeat-playbook.yml
-  - Filebeat Configuration File
-    https://github.com/kurtxavier11/KAcybersecurity/blob/main/linux/filebeat-config.yml
-  - Metricbeat Playbook
-    https://github.com/kurtxavier11/KAcybersecurity/blob/main/linux/metricbeat-playbook.yml
-  - Metricbeat Configuration File
-    https://github.com/kurtxavier11/KAcybersecurity/blob/main/linux/metricbeat-config.yml
-    
+  - [Anisible Hosts](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Ansible/hosts)
+  - [Ansible Configuration](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Ansible/ansible.cfg)
+  - [ELK Installation and VM Configuration](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Linux/install-elk.yml)
+  - [Filebeat Playbook](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Linux/filebeat-playbook.yml)
+  - [Filebeat Configuration File](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Linux/filebeat-config.yml)
+  - [Metricbeat Playbook](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Linux/metricbeat-playbook.yml)
+  - [Metricbeat Configuration File](https://github.com/kurtxavier11/First_ELK_Stack/blob/main/Linux/metricbeat-config.yml)
+
+
 This document contains the following details:
 - Description of the Topology
 - Access Policies
