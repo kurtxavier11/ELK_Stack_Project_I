@@ -1,8 +1,9 @@
-# UCLA Cybersecurity Project I - KA - ELK Deployment with Microsoft Azure
+# UCLA Cybersecurity Project I - ELK Deployment with Microsoft Azure
+##by Kurt Xavier Anderson
 
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure the network depicted in the diagram below.
 
 ![KA-NetworkDiagram](https://user-images.githubusercontent.com/85702906/140440104-c3701f7d-9863-41bf-b611-1fe17773bf55.PNG)
 
@@ -61,17 +62,17 @@ The configuration details of each machine may be found below:
 
 ### Access Policies
 
-The machines on the internal network are not exposed to the public Internet. 
-
-Only the KA-ELK-Server1 machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+The machines on the internal network are not exposed to the public Internet. Only the KA-ELK-Server1 machine can accept connections from the Internet. 
+Access to this machine is only allowed from the following IP addresses:
 - Local Machine Public IP through TCP 5601
 
 Machines within the network can only be accessed by the Local Machine.
-- Which machine did you allow to access your ELK VM? What was its IP address?
+- Machines allowed to access my ELK VM:
   The Jump-Box-Provisioner IP: 10.0.0.4 via SSH port 22
   Local Machine Public IP from port TCP 5601
 
-A summary of the access policies in place can be found in the table below.
+
+A summary of the access policies in place can be found in the table below:
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
