@@ -36,11 +36,11 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly reliable, in addition to restricting traffic to the network.
 - What aspect of security do load balancers protect?
     
-    Load balancers distribute network traffic evenly and protect the availability of data.
+    Load balancers distribute network traffic evenly and protect the availability of data. They can be placed between multiple servers to distrubute the traffic effectively to ensure that each server does not become overwhelmed and overworked. By doing this it effectively minimizes server response time and maximizes bandwidth.
  
 - What is the advantage of a jump box?    
     
-    The advantage of a jump box is that it is automated, more secure, and redundant.
+    The advantage of a jump box is that it is automated, more secure, and redundant. It establishes a "security zone" for all devices in a different zone of security. A jump box can be configured to establish internal firewalls in order to customize and harden security required by different devices. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 - What does Filebeat watch for?
@@ -86,7 +86,7 @@ A summary of the access policies in place can be found in the table below:
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible allows you to deploy multiple containers, creating redundancy in the network and the ability to deploy applications with mulitiple tiers. Ansible playbooks are modular and can be customized to the needs of the server your are building.
 - What is the main advantage of automating configuration with Ansible?
-  The main advantage of automating configuration with Ansible is to create a stable environment for developers and cyber security professionals.
+  The main advantage of automating configuration with Ansible is to create a stable environment for developers and cyber security professionals. Ansible is simple to set up and use, it is a powerful tool to model highly complex workflows, and it is flexible enough to allow users to orchestrate an application environment no matter the location in which it is deployed. 
 
 The playbook implements the following tasks:
 - Specifying a new VM and remote user
