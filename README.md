@@ -1,5 +1,5 @@
 # UCLA Cybersecurity Project I - ELK Deployment with Microsoft Azure
-## by Kurt Xavier Anderson
+### by Kurt Xavier Anderson
 
 ## Automated ELK Stack Deployment
 
